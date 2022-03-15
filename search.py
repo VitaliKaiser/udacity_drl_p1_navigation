@@ -61,7 +61,7 @@ asha_scheduler = ASHAScheduler(
 )
 analysis = tune.run(
     trainable,
-    config=agents.DQNAgent.hyperparamter_space(),
+    config=agents.DQN.hyperparamter_space(),
     search_alg=bayesopt,
     scheduler=asha_scheduler,
     resources_per_trial={"cpu": 2},
