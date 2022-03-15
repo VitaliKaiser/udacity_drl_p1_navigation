@@ -73,7 +73,9 @@ In order to start a new training from just execute the `train.py` script.
 python train.py
 ```
 
-In my case it did take TODO episodes to achieve the metric.
+In my case it did take 562 episodes to achieve the metric:
+
+![console output](img/console_p1.PNG)
 
 
 If you install xtensorboard
@@ -88,7 +90,7 @@ tensorboard --logdir runs
 ```
 
 
-![console output](img/tb_p1.PNG)
+![tensorboard](img/tb_p1.PNG)
 
 # Search for hyperparameter
 
